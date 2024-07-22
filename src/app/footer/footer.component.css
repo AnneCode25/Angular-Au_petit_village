@@ -1,0 +1,18 @@
+footer {
+        background-color: #151217;
+        color: #f9d0a3;
+      }
+      .nav-link {
+        text-decoration: none;
+        color: #f9d0a3;
+      }
+      .nav-link:hover {
+        color: #DA001E;
+      }
+      .reseaux {
+        color: #f9d0a3;
+        font-size: 24px;
+      }
+      .reseaux:hover {
+        color: #DA001E;
+      }
