@@ -1,0 +1,30 @@
+/* Enlever le soulignement pour tous les liens de la navbar */
+.navbar-nav .nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-nav {
+        list-style: none;
+}
+
+/* Ajouter le soulignement uniquement pour le lien actif */
+.navbar-nav .nav-link.active {
+  text-decoration: underline;
+}
+
+/* menu burger caché en desktop */
+.navbar-toggler {
+        display: none;
+      }
+/* Affichage menu burger */
+@media (max-width: 991.98px) {
+        .navbar-toggler {
+          display: block;
+        }
+}
+
+.navbar {
+        border-bottom: 0.1em solid #151217;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
