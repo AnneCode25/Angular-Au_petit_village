@@ -16,3 +16,6 @@ footer {
       .reseaux:hover {
         color: #DA001E;
       }
+      ul {
+        margin:0 !important;
+      }
