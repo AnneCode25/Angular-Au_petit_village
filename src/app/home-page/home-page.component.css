@@ -14,14 +14,13 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+justify-content: space-between;
+text-align: center;
 }
 
 
 /* Ajouter un fond semi-transparent derrière le texte */
-.background-image-accueil::before {
+/* .background-image-accueil::before {
         content: "";
         position: absolute;
         top: 0;
@@ -29,8 +28,8 @@
         right: 0;
         bottom: 0;
         background: rgba(0, 0, 0, 0.1); /* Ajuster l'opacité et la couleur selon vos besoins */
-        z-index: 1;
-      }
+        /* z-index: 1; */
+      /* } */
 
 /* Ajuster le texte pour qu'il soit au-dessus du fond semi-transparent */
 .outlined-text {
