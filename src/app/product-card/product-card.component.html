@@ -3,6 +3,6 @@
         <div class="card-body">
           <h3 class="card-title">{{ product.name }}</h3>
           <p class="card-text">{{ product.price }} €</p>
-          <a href="#" class="btn btn-primary">Fiche produit</a>
+          <button class="btn btn-primary" (click)="goToProductDetails(product.id)">Fiche produit</button>
         </div>
       </div>
