@@ -8,6 +8,16 @@
         list-style: none;
 }
 
+.container-fluid {
+  padding-left: 3rem;
+  background-color: #fdbf7d;
+}
+
+/* Espacer les éléments de la liste des pages */
+.navbar-nav .nav-item {
+  margin-right: 2rem;
+}
+
 /* Ajouter le soulignement uniquement pour le lien actif */
 .navbar-nav .nav-link.active {
   text-decoration: underline;

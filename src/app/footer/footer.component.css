@@ -1,6 +1,7 @@
 footer {
         background-color: #151217;
         color: #f9d0a3;
+        margin:0 !important;
       }
       .nav-link {
         text-decoration: none;

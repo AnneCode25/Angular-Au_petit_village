@@ -4,12 +4,14 @@
   *ngIf="product$ | async as product; else noProduct"
 >
   <div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-12">
+    <div class="col-lg-6 col-md-6 col-sm-12 detail-product">
       <h2 class="product-name">{{ product.name }}</h2>
       <p class="product-description">{{ product.description }}</p>
-      <p>Prix: {{ product.price | currency : "EUR" }}</p>
+      <p>Prix: {{ product.price }} €</p>
       <p *ngIf="product.inStock">En Stock</p>
       <p *ngIf="!product.inStock">Rupture de Stock</p>
+      <button class="btn btn-panier">Ajouter au panier</button>
+
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12">
       <img
@@ -18,8 +20,13 @@
         class="product-image"
       />
     </div>
-    <button (click)="goBack()">Retour à la liste</button>
   </div>
+  <div>
+
+  <button (click)="goBack()" class="btn-retour">
+    <i class="fa-solid fa-arrow-left"></i>
+     Retour à la liste</button>
+</div>
 </div>
   <ng-template #noProduct>
     <p>Produit non trouvé.</p>
