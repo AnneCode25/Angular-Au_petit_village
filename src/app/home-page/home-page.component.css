@@ -46,6 +46,11 @@ main p {
         padding: 5rem;
 }
 
+.container-products h2 {
+        font-size: 3rem;
+        padding-bottom: 5rem;
+}
+
 .col {
         display: flex;
         justify-content: center;
