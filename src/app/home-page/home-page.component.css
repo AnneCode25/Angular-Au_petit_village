@@ -37,3 +37,16 @@ main h1 {
 main p {
         font-size: 2rem !important;
 }
+
+/* Style de la partie produits */
+.container-products {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 5rem;
+}
+
+.col {
+        display: flex;
+        justify-content: center;
+}
