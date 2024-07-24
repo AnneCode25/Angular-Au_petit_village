@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+/* Font Comfortaa pour le texte */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');/* You can add global styles to this file, and also import other style files */
+body { 
+        font-family: 'Comfortaa', sans-serif;
+        background-color: #f9d0a3;
+
+}
+
+/* Fonts Buubleboddy pour les titres  */
+@font-face {
+        font-family: BubbleboddyFat;
+        src: url('./assets/fonts/Bubbleboddy-FatTrial.ttf') format('truetype');
+}
+
+@font-face {
+        font-family: BubbleboddyLight;
+        src: url('./assets/fonts/Bubbleboddy-ExtraLightTrial.ttf') format('truetype');
+}
+
+
+h1, h2 {
+        font-family: BubbleboddyFat, sans-serif;
+}
+
+h3, h4, h5, h6 {
+        font-family: BubbleboddyLight, sans-serif;
+}

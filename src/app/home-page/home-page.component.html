@@ -1,0 +1,30 @@
+<main>
+  <div class="container-accueil">
+    <div class="background-image-accueil">
+      <h1 class="outlined-text">{{ CompanyName }}</h1>
+    </div>
+  </div>
+  <p class="description">
+    <em>{{ CompanyShortDescription }}</em>
+  </p>
+  <div class="container-products mt-4">
+    <div class="text-center mb-4">
+      <h2>Catalogue des Produits</h2>
+    </div>
+    <div class="d-flex justify-content-start mb-4">
+      <input [(ngModel)]="searchText" placeholder="Rechercher un produit" />
+      <select [(ngModel)]="sortOrder">
+        <option value="asc">Trier par prix croissant</option>
+        <option value="desc">Trier par prix décroissant</option>
+      </select>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      @for (product of products | filterByName:searchText |
+      sortByPrice:sortOrder; track product.id) {
+      <div class="col">
+        <app-product-card [product]="product"></app-product-card>
+      </div>
+      }
+    </div>
+  </div>
+</main>

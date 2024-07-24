@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;">
+        <img [src]="product.imageUrl" class="card-img-top" alt="product.name">
+        <div class="card-body">
+          <h3 class="card-title">{{ product.name }}</h3>
+          <p class="card-text">{{ product.price }} €</p>
+          <button class="btn btn-primary" (click)="goToProductDetails(product.id)">Fiche produit</button>
+        </div>
+      </div>
