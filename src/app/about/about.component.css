@@ -9,3 +9,44 @@
         height: auto;
         margin-bottom: 20px;
       }
+
+/* CSS pour centrer les cards et les rendre de la même taille */
+.about-section {
+  display: flex;
+  justify-content: center;
+}
+
+.about-section .row {
+  display: flex;
+  justify-content: center;
+}
+
+.about-section .col-md-4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.about-section .card {
+  width: 100%;
+  max-width: 300px; /* Ajustez selon vos besoins */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.about-section .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.about-section .card-img-top {
+  flex-shrink: 0;
+}
+
+.about-section .card-title, .about-section .card-text {
+  margin: 0;
+}
