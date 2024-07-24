@@ -23,7 +23,7 @@ text-align: center;
 .outlined-text {
         position: relative;
         z-index: 2;
-        color: #fdd90b; /* Couleur du texte pour assurer la lisibilité */
+        color: #fdd90b;
         text-shadow:
           -1px -1px 0 #151217,
           1px -1px 0 #151217,
@@ -32,7 +32,7 @@ text-align: center;
       }
 
 .outlined-text {
-        color: #fdd90b; /* Couleur du texte pour assurer la lisibilité */
+        color: #fdd90b;
 
         text-shadow:
         -1px -1px 0 #151217,
