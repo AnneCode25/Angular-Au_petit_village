@@ -1,3 +1,15 @@
+# Environnement de développement
+
+- Angular : 18.1.1
+- Node.js : 20.11.1
+- npm : 10.5.1
+- Angular CLI : 18.1.1
+
+# Dépendances principales
+
+- RxJS : 7.8.1
+- TypeScript : 5.4.5
+
 # DevoirAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
