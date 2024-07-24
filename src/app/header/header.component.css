@@ -28,13 +28,9 @@
         display: none;
       }
 /* Affichage menu burger */
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
         .navbar-toggler {
           display: block;
         }
 }
 
-.navbar {
-        border-bottom: 0.1em solid #151217;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
