@@ -1,0 +1,32 @@
+.btn-retour {
+        background-color: white;
+        color: #151217;
+        border: none;
+        width: auto;
+        margin: 2rem;
+}
+
+.product-container {
+        margin: 2rem 0 2rem 4rem;
+}
+
+.detail-product h2 {
+        margin-bottom: 3rem !important;
+        text-decoration: underline
+
+}
+
+.detail-product p {
+        margin-bottom: 3rem !important;
+}
+
+.btn-panier {
+        background-color: #151217;
+        color: #f9d0a3;
+}
+
+.product-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+}
